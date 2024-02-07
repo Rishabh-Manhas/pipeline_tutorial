@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const port = 8080;
 
-app.get('/', (req, res) => res.send('One Piece is Real!'));
+app.get('/', (req, res) => res.send('One Piece is Real! Orewa Naru Kaizoku Oni'));
 
 app.listen(port);
 console.log(`App running on http://localhost:${port}`);
